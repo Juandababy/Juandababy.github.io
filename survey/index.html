@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Juandababy</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<h1 id="title">Juan's Survey</h1>
+<p id="description">This is a survey to tell me about your self and things that intreset you and other hobbys you may have.</p>
+<form id="survey-form">
+
+  <label id="name-label" for="name">First and Last name:</label><br>
+  <input placeholder="name" type="text" id="name" name="name" required><br>
+
+  <label id="email-label" for="name">Email:</label><br>
+  <input placeholder="email" id="email" type="email" id="email" name="name" required><br>
+  <p>whats your favortie color?</p>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="red" required>
+  <label for="vehicle1"> Red </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="blue" required>
+  <label for="vehicle2"> Blue</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="yellow" required>
+  <label for="vehicle3"> Yellow </label><br>
+  <p>What is your gender</p>
+
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">Female</label><br>
+<p>How many siblings do you have?<br>
+  <label id="number-label" for="number">Number of siblings (1-10):</label>
+  <input placeholder="0" type="number" id="number" name="number" min="1" max="10"><br>
+<p>What is your favorite gaming console
+  <label for="cars">Choose a game console:</label><br>
+
+  <select name="console" id="dropdown">
+    <option value="ps4">ps4</option>
+    <option value="xbox">xbox</option>
+    <option value="pc">pc</option>
+    <option value="switch">switch</option>
+  </select>
+  <br>
+  
+  <label for="w3review">Juan's survey review:</label><br>
+  <textarea id="survey" name="survey" rows="4" cols="50">
+any comments or concerns
+</textarea><br>
+
+  <input type="submit" value="Submit">
+</form>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
